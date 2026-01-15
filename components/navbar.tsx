@@ -2,13 +2,13 @@ import Link from "next/link";
 
 export default function Navbar() {
     return (
-        <nav className="bg-white p-3 mt-5 w-[75%] mx-auto rounded-3xl shadow-lg sticky z-50 top-4 border border-gray-200">
-            <div className="grid grid-cols-3 items-center">
+        <nav className="bg-white p-3 mt-5 md:w-[85%] mx-auto rounded-3xl shadow-lg sticky z-50 top-4 border border-gray-200">
+            <div className="flex lg:grid lg:grid-cols-3 items-center justify-between">
                 <div className="logo-icon bg-black px-4 py-2 rounded-2xl w-fit">                
                     <span className="font-archivo text-white font-bold">KyL</span>
                 </div>
 
-                <div className="flex gap-12 justify-center">
+                <div className="hidden lg:flex gap-12 justify-center">
                     <Link href="/" className="text-[#0a0908] font-archivo">
                         Home
                     </Link>

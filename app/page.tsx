@@ -3,8 +3,8 @@ import Image from "next/image";
 export default async function Home() {
   return (
     <div className="home-page">
-      
-        <div className="bg-white w-[75%] h-[500px] mx-auto mt-4 rounded-4xl border border-gray-200 shadow-lg">
+        <div className="bg-white w-[85%] h-[500px] mx-auto mt-4 rounded-4xl border border-gray-200 shadow-lg bg-[url('/images/violet-ever.jpg')] bg-cover bg-center">
+          <span className="header-text flex justify-center pt-40 text-[40px] font-archivo text-white">welcome</span>
         </div>
     </div>
   ); 

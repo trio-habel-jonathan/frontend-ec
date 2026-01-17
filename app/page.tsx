@@ -81,8 +81,7 @@ export default async function Home() {
           </Link>
         </div>
         <div className="relative h-[500px] bg-[#0a0a0a] rounded-b-4xl mt-12">
-          <p className="text-white">How Potion
-works</p>
+          <p className="text-white">How Potion works</p>
         </div>
         <div className="relative h-[500px]">
 

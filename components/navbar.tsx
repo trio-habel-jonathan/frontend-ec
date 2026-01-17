@@ -2,26 +2,26 @@ import Link from "next/link";
 
 export default function Navbar() {
     return (
-        <nav className="bg-white p-3 mt-5 max-w-[85%] mx-auto rounded-3xl shadow-lg sticky z-50 top-4 border border-gray-200">
+        <nav className="bg-[white] p-3 mt-5 max-w-[95%] mx-auto rounded-3xl shadow-lg sticky z-50 top-4 border border-gray-200">
             <div className="flex lg:grid lg:grid-cols-3 items-center justify-between">
                 <div className="logo-icon bg-black px-4 py-2 rounded-2xl w-fit">                
                     <span className="font-archivo text-white font-bold">KyL</span>
                 </div>
 
                 <div className="hidden lg:flex gap-12 justify-center">
-                    <Link href="/" className="text-[#0a0908] font-archivo">
+                    <Link href="/" className="text-[#0a0908] font-lexend-deca">
                         Home
                     </Link>
-                    <Link href="/about" className="text-[#0a0908] font-archivo">
+                    <Link href="/about" className="text-[#0a0908] font-lexend-deca">
                         Shop
                     </Link>
-                    <Link href="/services" className="text-[#0a0908] font-archivo">
+                    <Link href="/services" className="text-[#0a0908] font-lexend-deca">
                         About
                     </Link>
                 </div>
                 <div className="flex gap-3 md:gap-4 items-center justify-end">
                     <div className="relative hidden md:block">
-                        <input type="text" placeholder="Search..." className="px-4 py-1.5 rounded-xl border border-gray-300 focus:outline-none focus:border-gray-400 text-sm font-archivo w-[100%]"/>
+                        <input type="text" placeholder="Search..." className="px-4 py-1.5 rounded-xl border border-gray-300 focus:outline-none focus:border-gray-400 text-sm font-lexend-deca w-[100%]"/>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="h-4 w-4 absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
                         </svg>

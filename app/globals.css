@@ -23,8 +23,12 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  overflow: auto;
 }
 
+.font-lexend-deca {
+  font-family: var(--font-lexend-deca);
+}
 
 .font-archivo {
   font-family: var(--font-archivo-black);

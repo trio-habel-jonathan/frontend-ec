@@ -1,8 +1,14 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Archivo_Black } from "next/font/google";
+import { Lexend_Deca } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
+
+const lexendDeca = Lexend_Deca({
+  subsets: ["latin"],
+  variable: "--font-lexend-deca"
+})
 
 const archivoBlack = Archivo_Black({
   weight: "400",
@@ -41,6 +47,7 @@ export default function RootLayout({
           ${geistSans.variable}
           ${geistMono.variable}
           ${archivoBlack.variable}
+          ${lexendDeca.variable}
           antialiased
         `}
       >

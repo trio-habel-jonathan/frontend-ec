@@ -4,8 +4,8 @@ import Link from "next/link";
 export default async function Home() {
   return (
     <div className="home-page">
-        <div className="text-center mt-25">
-          <p className="text-title font-lexend-deca mx-auto max-w-4xl text-6xl text-black md:text-7xl">
+        <div className="text-center mt-15 md:mt-25">
+          <p className="text-title font-lexend-deca mx-auto max-w-4xl text-6xl text-black md:text-7xl animate-fade-in">
             Everything You Need, <span className="text-orange-500">In One Place</span>
           </p>
           <p className="text-sub mt-[40px] font-lexend-deca mx-auto max-w-3xl text-xl text-[#1e293b]">Explore a variety of products with a smooth and simple shopping experience, all in one place</p>
@@ -14,14 +14,49 @@ export default async function Home() {
               <p className="font-lexend-deca text-white text-[20px]">Explore</p>
               <svg className="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 12H20M20 12L14 6M20 12L14 18" stroke="#fff5f5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path> </g></svg>
             </Link>
-
           </div>
         </div>
-          <div className="bg-white w-[85%] h-[700px] mx-auto mt-20 rounded-4xl border border-gray-200 shadow-lg bg-[url('/images/violet-ever.jpg')] bg-cover bg-center">
+        <div>
+          <div className="w-[85%] h-[50px] mx-auto mt-10 rounded-4xl border border-gray-200 flex items-center justify-center gap-2">
+                <div className="w-2 h-2 rounded-full bg-gray-400"></div>
+                <div className="w-2 h-2 rounded-full bg-gray-400"></div>
+                <div className="w-2 h-2 rounded-full bg-gray-400"></div>
+          </div>
+          <div className="relative bg-white w-[85%] h-[700px] mx-auto mt-5 rounded-4xl border-t border-gray-200 shadow-lg bg-[url('/images/violet-ever.jpg')] bg-cover bg-center">
+          </div>
+          <div className="w-[85%] h-[50px] mx-auto mt-5 rounded-4xl border border-gray-200 flex items-center justify-center gap-2">
+                <div className="w-2 h-2 rounded-full bg-gray-400"></div>
+                <div className="w-2 h-2 rounded-full bg-gray-400"></div>
+                <div className="w-2 h-2 rounded-full bg-gray-400"></div>
+          </div>
         </div>
-        <div className="h-[400px]">
+        <div className="w-[85%] mx-auto mt-10">
+          <div className="mb-6">
+            <h2 className="text-xl text-center font-lexend-deca">Featured Products</h2>
+            <Link href="/" className="invisible md:visible font-lexend-deca">Explore More</Link>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+              <div className="bg-white h-[400px] w-100 rounded-3xl shadow-lg border border-gray-200">
+                <div className="mx-auto w-[90%] mt-[5%] h-[60%] bg-[url('https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/395016/04/sv01/fnd/IDN/fmt/png/Sepatu-Sneaker-Unisex-Puma-Caven-2.0-Lux')] bg-cover bg-center rounded-2xl border border-gray-200"></div>
+              </div>
+              <div className="bg-white h-[400px] w-100 rounded-3xl shadow-lg border border-gray-200">
+                <div className="mx-auto w-[90%] mt-[5%] h-[60%] bg-[url('https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/395016/04/sv01/fnd/IDN/fmt/png/Sepatu-Sneaker-Unisex-Puma-Caven-2.0-Lux')] bg-cover bg-center rounded-2xl border border-gray-200"></div>
+              </div>
+                           <div className="bg-white h-[400px] w-100 rounded-3xl shadow-lg border border-gray-200">
+                <div className="mx-auto w-[90%] mt-[5%] h-[60%] bg-[url('https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/395016/04/sv01/fnd/IDN/fmt/png/Sepatu-Sneaker-Unisex-Puma-Caven-2.0-Lux')] bg-cover bg-center rounded-2xl border border-gray-200"></div>
+              </div>
+                           <div className="bg-white h-[400px] w-100 rounded-3xl shadow-lg border border-gray-200">
+                <div className="mx-auto w-[90%] mt-[5%] h-[60%] bg-[url('https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/395016/04/sv01/fnd/IDN/fmt/png/Sepatu-Sneaker-Unisex-Puma-Caven-2.0-Lux')] bg-cover bg-center rounded-2xl border border-gray-200"></div>
+              </div>
+          </div>
+        </div>
+        <div className="h-[900px]">
 
         </div>
+        
+        {/* <div className="w-[95%] h-[50px] mx-auto mt-10 rounded-4xl border border-gray-200">
+
+        </div> */}
         {/* <div className="bg-white w-[95%] h-[500px] mx-auto mt-4 rounded-4xl border border-gray-200 shadow-lg bg-[url('/images/violet-ever.jpg')] bg-cover bg-center">
           <span className="header-text flex justify-center pt-40 text-[40px] font-archivo text-white">Meet the Super-fast E-com</span>
         </div> */}

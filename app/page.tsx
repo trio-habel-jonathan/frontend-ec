@@ -36,21 +36,59 @@ export default async function Home() {
             <Link href="/" className="invisible md:visible font-lexend-deca">Explore More</Link>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-              <div className="bg-white h-[400px] rounded-3xl shadow-lg border border-gray-200">
-                <div className="mx-auto w-[90%] mt-[5%] h-[60%] bg-[url('https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/395016/04/sv01/fnd/IDN/fmt/png/Sepatu-Sneaker-Unisex-Puma-Caven-2.0-Lux')] bg-cover bg-center rounded-2xl border border-gray-200"></div>
+              <div className="bg-white h-[650px] rounded-3xl shadow-lg border border-gray-200">
+                <div className="relative mx-auto w-[90%] mt-[5%] h-[60%] bg-[url('https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/395016/04/sv01/fnd/IDN/fmt/png/Sepatu-Sneaker-Unisex-Puma-Caven-2.0-Lux')] bg-cover bg-center rounded-2xl border border-gray-200"></div>
+                <p className="product-brand mt-3 font-lexend-deca text-white text-1xl inline-flex items-center gap-2 px-[30px] py-2 rounded-r-lg bg-orange-500 shadow-lg">Unisex</p>
+                <div className="p-6 space-y-3">
+                  <p className="product-title font-lexend-deca text-1xl">Sepatu Sneaker Unisex Puma Caven 2.0 Lux</p>
+                  <p className="product-title font-lexend-deca text-1xl font-semibold">Rp. 25.000</p>
+                    <Link href="/" target="blank" className="block w-full py-3 text-center rounded-2xl bg-black">
+                      <p className="font-lexend-deca text-white text-[20px]">Buy Now</p>
+                    </Link>
+                </div>
               </div>
-              <div className="bg-white h-[400px] rounded-3xl shadow-lg border border-gray-200">
-                <div className="mx-auto w-[90%] mt-[5%] h-[60%] bg-[url('https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/395016/04/sv01/fnd/IDN/fmt/png/Sepatu-Sneaker-Unisex-Puma-Caven-2.0-Lux')] bg-cover bg-center rounded-2xl border border-gray-200"></div>
+              <div className="bg-white h-[650px] rounded-3xl shadow-lg border border-gray-200">
+                <div className="relative mx-auto w-[90%] mt-[5%] h-[60%] bg-[url('https://cdnpro.eraspace.com/media/catalog/product/a/p/apple_iphone_15_blue_1.jpg')] bg-cover bg-center rounded-2xl border border-gray-200"></div>
+                <p className="product-brand mt-3 font-lexend-deca text-white text-1xl inline-flex items-center gap-2 px-[30px] py-2 rounded-r-lg bg-orange-500 shadow-lg">Apple</p>
+                <div className="p-6 space-y-3">
+                  <p className="product-title font-lexend-deca text-1xl">Iphone 15</p>
+                  <p className="product-title font-lexend-deca text-1xl font-semibold">Rp. 11.249.000</p>
+                    <Link href="/" target="blank" className="block w-full py-3 text-center rounded-2xl bg-black">
+                      <p className="font-lexend-deca text-white text-[20px]">Buy Now</p>
+                    </Link>
+                </div>
               </div>
-              <div className="bg-white h-[400px] rounded-3xl shadow-lg border border-gray-200">
-                <div className="mx-auto w-[90%] mt-[5%] h-[60%] bg-[url('https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/395016/04/sv01/fnd/IDN/fmt/png/Sepatu-Sneaker-Unisex-Puma-Caven-2.0-Lux')] bg-cover bg-center rounded-2xl border border-gray-200"></div>
+               <div className="bg-white h-[650px] rounded-3xl shadow-lg border border-gray-200">
+                <div className="relative mx-auto w-[90%] mt-[5%] h-[60%] bg-[url('https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/395016/04/sv01/fnd/IDN/fmt/png/Sepatu-Sneaker-Unisex-Puma-Caven-2.0-Lux')] bg-cover bg-center rounded-2xl border border-gray-200"></div>
+                <p className="product-brand mt-3 font-lexend-deca text-white text-1xl inline-flex items-center gap-2 px-[30px] py-2 rounded-r-lg bg-orange-500 shadow-lg">Unisex</p>
+                <div className="p-6 space-y-3">
+                  <p className="product-title font-lexend-deca text-1xl">Sepatu Sneaker Unisex Puma Caven 2.0 Lux</p>
+                  <p className="product-title font-lexend-deca text-1xl font-semibold">Rp. 25.000</p>
+                    <Link href="/" target="blank" className="block w-full py-3 text-center rounded-2xl bg-black">
+                      <p className="font-lexend-deca text-white text-[20px]">Buy Now</p>
+                    </Link>
+                </div>
               </div>
-              <div className="bg-white h-[400px] rounded-3xl shadow-lg border border-gray-200">
-                <div className="mx-auto w-[90%] mt-[5%] h-[60%] bg-[url('https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/395016/04/sv01/fnd/IDN/fmt/png/Sepatu-Sneaker-Unisex-Puma-Caven-2.0-Lux')] bg-cover bg-center rounded-2xl border border-gray-200"></div>
+              <div className="bg-white h-[650px] rounded-3xl shadow-lg border border-gray-200">
+                <div className="relative mx-auto w-[90%] mt-[5%] h-[60%] bg-[url('https://cdnpro.eraspace.com/media/catalog/product/a/p/apple_iphone_15_blue_1.jpg')] bg-cover bg-center rounded-2xl border border-gray-200"></div>
+                <p className="product-brand mt-3 font-lexend-deca text-white text-1xl inline-flex items-center gap-2 px-[30px] py-2 rounded-r-lg bg-orange-500 shadow-lg">Apple</p>
+                <div className="p-6 space-y-3">
+                  <p className="product-title font-lexend-deca text-1xl">Iphone 15</p>
+                  <p className="product-title font-lexend-deca text-1xl font-semibold">Rp. 11.249.000</p>
+                    <Link href="/" target="blank" className="block w-full py-3 text-center rounded-2xl bg-black">
+                      <p className="font-lexend-deca text-white text-[20px]">Buy Now</p>
+                    </Link>
+                </div>
               </div>
           </div>
         </div>
-        <div className="h-[900px]">
+        <Link href="/" target="blank" className="md:invisible flex justify-center mt-10 md:mt-0">
+            <span className="inline-flex items-center justify-center px-8 py-3 bg-[#f97316] rounded-lg text-white font-lexend-deca">Explore More</span>
+        </Link>
+        <div className="h-[500px] bg-black mt-12">
+
+        </div>
+        <div className="h-[500px] mt-12">
 
         </div>
         

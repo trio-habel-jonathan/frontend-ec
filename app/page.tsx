@@ -36,16 +36,16 @@ export default async function Home() {
             <Link href="/" className="invisible md:visible font-lexend-deca">Explore More</Link>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-              <div className="bg-white h-[400px] w-100 rounded-3xl shadow-lg border border-gray-200">
+              <div className="bg-white h-[400px] rounded-3xl shadow-lg border border-gray-200">
                 <div className="mx-auto w-[90%] mt-[5%] h-[60%] bg-[url('https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/395016/04/sv01/fnd/IDN/fmt/png/Sepatu-Sneaker-Unisex-Puma-Caven-2.0-Lux')] bg-cover bg-center rounded-2xl border border-gray-200"></div>
               </div>
-              <div className="bg-white h-[400px] w-100 rounded-3xl shadow-lg border border-gray-200">
+              <div className="bg-white h-[400px] rounded-3xl shadow-lg border border-gray-200">
                 <div className="mx-auto w-[90%] mt-[5%] h-[60%] bg-[url('https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/395016/04/sv01/fnd/IDN/fmt/png/Sepatu-Sneaker-Unisex-Puma-Caven-2.0-Lux')] bg-cover bg-center rounded-2xl border border-gray-200"></div>
               </div>
-                           <div className="bg-white h-[400px] w-100 rounded-3xl shadow-lg border border-gray-200">
+              <div className="bg-white h-[400px] rounded-3xl shadow-lg border border-gray-200">
                 <div className="mx-auto w-[90%] mt-[5%] h-[60%] bg-[url('https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/395016/04/sv01/fnd/IDN/fmt/png/Sepatu-Sneaker-Unisex-Puma-Caven-2.0-Lux')] bg-cover bg-center rounded-2xl border border-gray-200"></div>
               </div>
-                           <div className="bg-white h-[400px] w-100 rounded-3xl shadow-lg border border-gray-200">
+              <div className="bg-white h-[400px] rounded-3xl shadow-lg border border-gray-200">
                 <div className="mx-auto w-[90%] mt-[5%] h-[60%] bg-[url('https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/395016/04/sv01/fnd/IDN/fmt/png/Sepatu-Sneaker-Unisex-Puma-Caven-2.0-Lux')] bg-cover bg-center rounded-2xl border border-gray-200"></div>
               </div>
           </div>
